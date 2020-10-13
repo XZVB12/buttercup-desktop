@@ -1,7 +1,7 @@
 {
   "name": "buttercup-desktop",
   "productName": "Buttercup",
-  "version": "1.20.4",
+  "version": "1.20.5",
   "description": "Free and Open Source password vault",
   "main": "app/dist/app.js",
   "scripts": {
@@ -143,6 +143,7 @@
   },
   "homepage": "https://buttercup.pw",
   "dependencies": {
+    "is-valid-http-url": "^1.0.3",
     "opencollective": "^1.0.3"
   },
   "devDependencies": {
@@ -183,7 +184,7 @@
     "babel-plugin-transform-strict-mode": "^6.22.0",
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-plugin-webpack-loaders": "^0.9.0",
-    "buttercup": "^4.9.2",
+    "buttercup": "^4.13.1",
     "check-os-tray-support": "^2.0.0",
     "classnames": "^2.2.6",
     "concurrently": "^3.6.1",
@@ -280,7 +281,7 @@
     "tmp": "0.0.33",
     "url-loader": "^1.1.2",
     "uuid": "^2.0.3",
-    "webdav": "^2.9.1",
+    "webdav": "^2.10.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
